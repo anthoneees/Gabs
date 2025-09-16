@@ -10,7 +10,7 @@ const InitialText = ({ onDone }) => {
   that it makes all the waiting, driving, and planning worth it. Just spending a 
   few days with you makes me so happy. You're one of the 
   most motivated and driven people I've met. Watching you study so hard makes me want 
-  to grow too. Not just for myself, but so I can be someone who stand proud next to you. 
+  to grow too. Not just for myself, but so I can be someone who can stand proud next to you. 
   You inspire me in ways I didn't expect and I am so grateful for all of it. I value 
   every moment with you even if its just studying or brain rotting. You're so fun to be 
   around and I genuinely enjoy every second I am able to spend with you. I don't know 
