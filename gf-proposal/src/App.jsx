@@ -40,7 +40,14 @@ function App() {
       {!showNextPart ? (
         <div className="container">
           <InitialText onDone={() => setDone(true)} />
-          {done && <button onClick={() => setShowNextPart(true)}>Next</button>}
+          {done && (
+            <button
+              className="nextButton"
+              onClick={() => setShowNextPart(true)}
+            >
+              Next
+            </button>
+          )}
         </div>
       ) : !showCelebration ? (
         <div className="container">

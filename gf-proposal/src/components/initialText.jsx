@@ -2,19 +2,22 @@ import "../styles/InitialText.css";
 import { useState, useEffect, useMemo } from "react";
 
 const InitialText = ({ onDone }) => {
-  const fullText = `I’ve been thinking about how to say this for a while, and
-    I figured the best way is simply—with honesty and heart.
-    Spending time with you has been one of the most unexpectedly
-    beautiful parts of my life. Whether we’re talking for hours or
-    just sharing quiet moments, there’s something about you that
-    makes everything feel lighter, brighter, and more real.
-    You make me laugh in ways I didn’t know I needed, and you
-    make me feel seen in ways I didn’t know I was missing.
-    I admire your strength, your kindness, your quirks,
-    and the way you move through the world. And the truth
-    is—I’d love the chance to walk beside you in it. Not just
-    as someone who cares deeply for you, but as someone who
-    gets to call you mine`;
+  const fullText = `Hey Gabby, I am writing this because I know I probably 
+  wasn't able to get all of my thoughts out in person. But the past 2 months with you 
+  have been some of the best months of my life. Even the smallest things like short
+  phone calls have become the best parts of my day. I look forward to hearing your voice
+  every day even if its just for a few minutes. Every time I get to see you, I become so excited
+  that it makes all the waiting, driving, and planning worth it. Just spending a 
+  few days with you makes me so happy. You're one of the 
+  most motivated and driven people I've met. Watching you study so hard makes me want 
+  to grow too. Not just for myself, but so I can be someone who stand proud next to you. 
+  You inspire me in ways I didn't expect and I am so grateful for all of it. I value 
+  every moment with you even if its just studying or brain rotting. You're so fun to be 
+  around and I genuinely enjoy every second I am able to spend with you. I don't know 
+  exactly what the future holds and everything is so uncertain. But I do know that you 
+  have become such an important part of my life and there is no one I would rather be 
+  with. You've become such an important part of my life, and I want you to know how much 
+  that means to me. So, with that being I said I have a question.`;
 
   const [index, setIndex] = useState(0);
 
