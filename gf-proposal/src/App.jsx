@@ -10,12 +10,15 @@ function App() {
   const [showCelebration, setShowCelebration] = useState(false);
 
   const phrases = [
-    "Are you sure?",
-    "Pretty please?",
-    "Come on, say yes!",
-    "Please?",
-    "Can't we try?",
-    "Think about it?",
+    "What the frick :/",
+    "Just click yes",
+    "Oh, So you hate me?",
+    "Im just gonna kms",
+    "Bye.",
+    "Wow.",
+    "Isn't this tiring",
+    "I can go all day",
+    "Ok I give up :(",
   ];
 
   const handleNo = () => {

@@ -105,11 +105,11 @@ button {
 @media only screen and (max-width: 600px) {
   .container {
     justify-content: start;
-    padding-top: 3rem;
-    width: 80vw;
+    padding-top: 1.5rem;
+    width: 90vw;
   }
   .nextButton {
-    margin: 30px;
+    margin: 10px;
   }
   .yesButton,
   .noButton {
