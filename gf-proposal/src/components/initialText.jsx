@@ -1,4 +1,4 @@
-import "../styles/InitialText.css";
+import "@styles/InitialText.css";
 import { useState, useEffect, useMemo } from "react";
 
 const InitialText = ({ onDone }) => {

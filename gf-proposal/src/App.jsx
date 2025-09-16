@@ -1,6 +1,6 @@
-import Background from "./components/background.jsx";
-import InitialText from "./components/initialText.jsx";
-import "./styles/App.css";
+import Background from "@components/background.jsx";
+import InitialText from "@components/initialText.jsx";
+import "@styles/App.css";
 import { useState } from "react";
 
 function App() {

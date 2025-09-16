@@ -1,4 +1,4 @@
-import "../styles/Background.scss";
+import "@styles/Background.scss";
 import { useEffect } from "react";
 
 const Background = () => {
