@@ -15,9 +15,9 @@ const InitialText = ({ onDone }) => {
   every moment with you even if its just studying or brain rotting. You're so fun to be 
   around and I genuinely enjoy every second I am able to spend with you. I don't know 
   exactly what the future holds and everything is so uncertain. But I do know that you 
-  have become such an important part of my life and there is no one I would rather be 
-  with. You've become such an important part of my life, and I want you to know how much 
-  that means to me. So, with that being I said I have a question.`;
+  have become such an important part of my life and there is no one I would rather navigate 
+  the future with. I want you to know how much you mean to me. 
+  So, with that being I said I have a question.`;
 
   const [index, setIndex] = useState(0);
 
@@ -25,7 +25,7 @@ const InitialText = ({ onDone }) => {
 
   useEffect(() => {
     if (index >= fullText.length) {
-      onDone?.()
+      onDone?.();
       return;
     }
 
