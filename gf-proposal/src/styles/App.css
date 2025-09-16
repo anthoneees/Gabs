@@ -1,0 +1,118 @@
+@font-face {
+  font-family: "Kalam-Light";
+  src: url("../fonts/Kalam-Light.woff2") format("woff2"),
+    url("../fonts/Kalam-Light.woff") format("woff"),
+    url("../fonts/Kalam-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Kalam-Regular";
+  src: url("../fonts/Kalam-Regular.woff2") format("woff2"),
+    url("../fonts/Kalam-Regular.woff") format("woff"),
+    url("../fonts/Kalam-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Kalam-Bold";
+  src: url("../fonts/Kalam-Bold.woff2") format("woff2"),
+    url("../fonts/Kalam-Bold.woff") format("woff"),
+    url("../fonts/Kalam-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+
+.background-container {
+  position: fixed; /* stays put */
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1; /* behind everything */
+}
+h1 {
+  color: #ccff00;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 100dvh;
+  width: 50vw;
+  text-align: center;
+  margin: 0 auto;
+  font-family: Kalam-Regular;
+}
+
+button {
+  margin: 15px;
+  padding: 15px;
+  background-color: transparent;
+  border: 2px solid white;
+  cursor: pointer;
+  border-radius: 20px;
+  color: white;
+}
+
+.yesButton,
+.noButton {
+  font-size: 1.05rem;
+  cursor: pointer;
+}
+
+.yesButton.big {
+  transform: scale(1.2);
+}
+
+.noButton.small {
+  transform: scale(0.72);
+}
+
+.buttonsRow {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.celebration {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  gap: 20px;
+  z-index: 2;
+  position: relative;
+}
+
+.celebration img {
+  max-width: 400px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+}
+@media only screen and (max-width: 600px) {
+  .container {
+    justify-content: start;
+    padding-top: 5rem;
+    width: 70vw;
+  }
+  .nextButton {
+    margin: 60px;
+  }
+  .yesButton,
+  .noButton {
+    font-size: 0.95rem;
+    padding: 0.7rem 1rem;
+  }
+}
